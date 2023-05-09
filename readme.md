@@ -19,7 +19,7 @@ Go Task Application is a simple command-line application written in Go that demo
 3. Run the following command to start the postgres server:
 
    ```
-   pg_ctl start
+   pg_ctl -D <path-to-data-directory> start
    ```
 
 4. Run the following command to start the application:
