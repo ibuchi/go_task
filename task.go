@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Open a connection to the database
-	db, err := sql.Open("postgres", "postgres://postgres:ibuchi596643@localhost:5432/gotask?sslmode=disable")
+	db, err := sql.Open("postgres", "postgres://postgres:@localhost:5432/gotask?sslmode=disable")
 	if err != nil {
 		panic(err)
 	}
